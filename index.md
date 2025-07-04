@@ -44,35 +44,7 @@ The report below was generated in response to the specific query: **"Highlight a
 
 The tool follows a structured process to gather and analyze data, which is then interrogated by a user's query to produce a tailored intelligence report.
 
-```mermaid
-flowchart TD
-    A([Start: Define Target]) --> B{Gather Data}
-    
-    B --> P1[Twitter/X - Reddit - Hacker News - Bluesky - Mastodon]
-    
-    P1 --> C1[Analyze Text & Posts]
-    P1 --> C2[Describe Media with Vision AI]
-    
-    subgraph Analysis ["AI-Powered Analysis"]
-        C1
-        C2
-    end
-    
-    C1 --> F{Fuse Intelligence}
-    C2 --> F
-    
-    F -- User Query --> D([Generate Unified Intelligence Report])
-
-    classDef startEnd fill:#E8F5E8,stroke:#4CAF50,stroke-width:2px,color:#2E7D32
-    classDef process fill:#E3F2FD,stroke:#2196F3,stroke-width:2px,color:#1565C0
-    classDef source fill:#F3E5F5,stroke:#9C27B0,stroke-width:2px,color:#6A1B9A
-    classDef fusion fill:#FFF3E0,stroke:#FF9800,stroke-width:2px,color:#E65100
-    
-    class A,D startEnd
-    class B,C1,C2 process
-    class P1 source
-    class F fusion
-```
+![High-Level Workflow](./assets/images/flowchart.png)
 
 ### Project Status & Roadmap
 
