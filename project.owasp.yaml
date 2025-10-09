@@ -1,0 +1,35 @@
+audience:
+  - breaker
+community:
+  - name: project-social-osintlm
+    platform: slack
+    url: https://owasp.slack.com/archives/C09D3T2RGSV
+leaders:
+  - name: Brenden Miller
+    email: brenden.miller@owasp.org
+level: 2
+license:
+  - MIT
+name: OWASP SocialOSINTLM
+pitch: An OSINT tool that uses LLMs and vision models to analyze a target's social media footprint across multiple platforms, revealing insights through
+  natural language queries.
+repositories:
+  - name: www-project-social-osintlm
+    url: https://github.com/OWASP/www-project-social-osintlm
+    description: OWASP Foundation web repository
+  - name: owasp-social-osintlm
+    url: https://github.com/bm-github/owasp-social-osintlm
+    description: An autonomous OSINT agent for social media using any OpenAI-compatible API for deep analysis and reporting.
+tags:
+  - osint
+  - threat-intelligence
+  - ai
+  - llm
+  - automated-scanning
+  - python
+  - twitter
+  - reddit
+  - bluesky
+  - mastodon
+type: code
+website: https://owasp.org/www-project-social-osintlm
