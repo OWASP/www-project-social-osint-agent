@@ -1,15 +1,15 @@
 ---
 layout: col-sidebar
-title: OWASP SocialOSINTLM
+title: OWASP SocialOSINTAgent
 tags: osint, threat-intelligence, ai, llm, automated-scanning, python, twitter, reddit, bluesky, mastodon
 level: 2
 type: code
 pitch: An OSINT tool that uses LLMs and vision models to analyze a target's social media footprint across multiple platforms, revealing insights through natural language queries.
 ---
 
-### What is SocialOSINTLM?
+### What is SocialOSINTAgent?
 
-OWASP SocialOSINTLM is a powerful, Python-based tool that automates and enhances Open Source Intelligence (OSINT) gathering across major social media platforms, including **Twitter/X, Reddit, Hacker News, Bluesky, and Mastodon**. It provides security professionals and researchers with a unified, actionable view of a target's digital footprint by uncovering behavioral patterns, interests, and potential connections from both text and image data.
+Thr OWASP Social OSINT Agent is an intelligent, autonomous agent designed for open-source intelligence (OSINT) investigations. It leverages both text and vision-capable Large Language Models (LLMs) via any OpenAI-compatible API to autonomously gather, analyze, and synthesize user activity across single or multiple social media platforms **Twitter/X, Reddit, Hacker News, Bluesky, and Mastodon**. The final output is a structured analytical report that turns scattered public data into coherent, actionable intelligence.
 
 ### Core Features
 
@@ -57,6 +57,6 @@ The core functionality of SocialOSINTLM is mature and stable. Future development
 
 ### Resources
 
-*   **GitHub Repository:** [View the source code on GitHub](https://github.com/bm-github/owasp-social-osintlm)
-*   **Installation & Usage:** For detailed setup and command-line instructions, please see the [README.md](https://github.com/bm-github/owasp-social-osintlm/blob/main/README.md) file.
-*   **Report an Issue:** Found a bug or have a feature request? [Open an issue](https://github.com/bm-github/owasp-social-osintlm/issues)
+*   **GitHub Repository:** [View the source code on GitHub](https://github.com/bm-github/owasp-social-osint-agent)
+*   **Installation & Usage:** For detailed setup and command-line instructions, please see the [README.md](https://github.com/bm-github/owasp-social-osint-agent/blob/main/README.md) file.
+*   **Report an Issue:** Found a bug or have a feature request? [Open an issue](https://github.com/bm-github/owasp-social-osint-agent/issues)
