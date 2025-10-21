@@ -28,7 +28,7 @@ Thr OWASP Social OSINT Agent is an intelligent, autonomous agent designed for op
 
 ### AI-Powered Conversational Analysis
 
-SocialOSINTLM operates like a conversational analyst. Instead of producing a single, fixed report, you provide natural language queries to investigate the aggregated data from different angles. This allows for flexible and deep investigations tailored to your specific intelligence requirements.
+SocialOSINTAgent operates like a conversational analyst. Instead of producing a single, fixed report, you provide natural language queries to investigate the aggregated data from different angles. This allows for flexible and deep investigations tailored to your specific intelligence requirements.
 
 You can ask the tool to:
 *   **Analyze behavior:** "What are the user's primary hours of activity?"
@@ -38,7 +38,7 @@ You can ask the tool to:
 
 The report below was generated in response to the specific query: **"Highlight any relationships."**
 
-![Example analysis report from SocialOSINTLM](./assets/images/output.png)
+![Example analysis report from SocialOSINTAgent](./assets/images/output.png)
 
 ### High-Level Workflow
 
@@ -48,7 +48,7 @@ The tool follows a structured process to gather and analyze data, which is then 
 
 ### Project Status & Roadmap
 
-The core functionality of SocialOSINTLM is mature and stable. Future development will focus on quality-of-life enhancements and expanding capabilities.
+The core functionality of SocialOSINTAgent is mature and stable. Future development will focus on quality-of-life enhancements and expanding capabilities.
 
 **Potential Future Work:**
 *   Development of a graphical user interface (GUI) for enhanced usability.
