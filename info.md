@@ -5,15 +5,15 @@
 
 ### Project Links
 
-*   [GitHub Repository](https://github.com/bm-github/owasp-social-osintlm)
-*   For detailed setup and usage, see the [README.md](https://github.com/bm-github/owasp-social-osintlm/blob/main/README.md) file.
+*   [GitHub Repository](https://github.com/bm-github/owasp-social-osint-agent)
+*   For detailed setup and usage, see the [README.md](https://github.com/bm-github/owasp-social-osint-agent/blob/main/README.md) file.
 
 ### Getting Involved
 
 *   [Contribution Guide](./CONTRIBUTING.md)
-*   Report an Issue: [Open an issue](https://github.com/bm-github/owasp-social-osintlm/issues)
+*   Report an Issue: [Open an issue](https://github.com/bm-github/owasp-social-osint-agent/issues)
 *   [Join the OWASP Slack](https://owasp.org/slack/invite)
-*   Project Channel: **#project-socialosintlm**
+*   Project Channel: **#project-socialosintagent**
 
 ### License
 
