@@ -13,7 +13,7 @@
 *   [Contribution Guide](./CONTRIBUTING.md)
 *   Report an Issue: [Open an issue](https://github.com/bm-github/owasp-social-osint-agent/issues)
 *   [Join the OWASP Slack](https://owasp.org/slack/invite)
-*   Project Channel: **#project-socialosintagent**
+*   Project Channel: **#project-social-osint-agent**
 
 ### License
 

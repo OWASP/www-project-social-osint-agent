@@ -9,7 +9,7 @@ pitch: An OSINT tool that uses LLMs and vision models to analyze a target's soci
 
 ### What is SocialOSINTAgent?
 
-Thr OWASP Social OSINT Agent is an intelligent, autonomous agent designed for open-source intelligence (OSINT) investigations. It leverages both text and vision-capable Large Language Models (LLMs) via any OpenAI-compatible API to autonomously gather, analyze, and synthesize user activity across single or multiple social media platforms **Twitter/X, Reddit, Hacker News, Bluesky, and Mastodon**. The final output is a structured analytical report that turns scattered public data into coherent, actionable intelligence.
+The OWASP Social OSINT Agent is an intelligent, autonomous agent designed for open-source intelligence (OSINT) investigations. It leverages both text and vision-capable Large Language Models (LLMs) via any OpenAI-compatible API to autonomously gather, analyze, and synthesize user activity across single or multiple social media platforms **Twitter/X, Reddit, Hacker News, Bluesky, and Mastodon**. The final output is a structured analytical report that turns scattered public data into coherent, actionable intelligence.
 
 ### Core Features
 
