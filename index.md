@@ -9,16 +9,17 @@ pitch: An OSINT tool that uses LLMs and vision models to analyze a target's soci
 
 ### What is SocialOSINTAgent?
 
-The OWASP Social OSINT Agent is an intelligent, autonomous agent designed for open-source intelligence (OSINT) investigations. It leverages both text and vision-capable Large Language Models (LLMs) via any OpenAI-compatible API to autonomously gather, analyze, and synthesize user activity across single or multiple social media platforms **Twitter/X, Reddit, Hacker News, Bluesky, and Mastodon**. The final output is a structured analytical report that turns scattered public data into coherent, actionable intelligence.
+The OWASP Social OSINT Agent is an intelligent, autonomous agent designed for open-source intelligence (OSINT) investigations. It leverages both text and vision-capable Large Language Models (LLMs) via any OpenAI-compatible API to autonomously gather, analyze, and synthesize user activity across single or multiple social media platforms **Twitter/X, Reddit, Hacker News, Bluesky, GitHub, and Mastodon**. The final output is a structured analytical report that turns scattered public data into coherent, actionable intelligence.
 
 ### Core Features
 
-*   **Comprehensive Data Aggregation:** Gathers data simultaneously from Twitter/X, Reddit, Hacker News (via Algolia), Bluesky, and Mastodon. It interacts exclusively with official platform APIs, ensuring reliable and ethical data collection.
+*   **Comprehensive Data Aggregation:** Gathers data simultaneously from Twitter/X, Reddit, GitHub, Hacker News (via Algolia), Bluesky, and Mastodon. It interacts exclusively with official platform APIs, ensuring reliable and ethical data collection.
 *   **Advanced AI Analysis:**
     *   **Text & Vision:** Leverages Large Language Models (LLMs) and Vision Models to analyze text for semantic content and images for objective details like locations, objects, and text.
     *   **Shared Domain Analysis:** Automatically extracts, counts, and summarizes external links to reveal a target's primary information sources and influences.
     *   **Accurate Temporal Context:** Injects the current UTC timestamp into every analysis prompt, forcing the LLM to correctly interpret the timeline of events and avoid errors based on its fixed knowledge cutoff date.
 *   **Flexible & Resilient Operation:**
+    *   **Dockerized for Easy Deployment:** The agent is fully containerized with Docker, ensuring a simple, one-command setup and a consistent environment on any machine.
     *   **Interactive & Programmatic Modes:** Supports both a user-friendly interactive CLI for guided analysis and a programmatic (JSON-based) mode for integration into automated workflows.
     *   **Offline Mode:** Enables analysis to be run exclusively on locally cached data, eliminating the need for network requests to social platforms or for new media analysis.
     *   **Granular Fetch Control:** Interactively fetch more data for specific targets on-the-fly or define a detailed "Fetch Plan" in programmatic mode.
@@ -30,7 +31,7 @@ The OWASP Social OSINT Agent is an intelligent, autonomous agent designed for op
 
 SocialOSINTAgent operates like a conversational analyst. Instead of producing a single, fixed report, you provide natural language queries to investigate the aggregated data from different angles. This allows for flexible and deep investigations tailored to your specific intelligence requirements.
 
-You can ask the tool to:
+Examples you could ask the tool:
 *   **Analyze behavior:** "What are the user's primary hours of activity?"
 *   **Identify topics:** "Summarize the main themes from the last month's posts."
 *   **Assess persona:** "Are there notable differences in communication style between the Twitter and Bluesky accounts?"
@@ -48,7 +49,7 @@ The tool follows a structured process to gather and analyze data, which is then 
 
 ### Project Status & Roadmap
 
-The core functionality of SocialOSINTAgent is mature and stable. Future development will focus on quality-of-life enhancements and expanding capabilities.
+The project is actively maintained and has undergone a major refactoring to improve stability, testability, and documentation. The current version is considered a stable release.
 
 **Potential Future Work:**
 *   Development of a graphical user interface (GUI) for enhanced usability.
